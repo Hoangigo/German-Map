@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Navigationssystem</class>
+ <widget class="QWidget" name="Navigationssystem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="anlegen">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>170</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ort Anlegen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="anzeigen">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Karte Anzeigen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="entfernung">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>360</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Entfernung</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exportieren">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>560</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Karte Exportieren</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="importieren">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>460</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Karte Importieren</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deutschland">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>660</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Deutschland</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>591</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Navigationssystem</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
